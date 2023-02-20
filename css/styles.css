@@ -1,0 +1,215 @@
+:root{
+    --color-dark: #2E2F42;
+    --color-pressed-state: #404BBF;
+    --color-primary-brand: #4D5AE5;
+    --color-success: #31D0AA;
+    --color-text: #434455;
+    --color-subtle-text: #8E8F99;
+    --color-accent: #E7E9FC;
+    --color-light:#F4F4FD;
+    --color-modal-overlay: #2E2F42;
+    --color-hero-background: #2E2F42;
+    --color-white: #FFFFFF;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-white);
+    font-size: 16px;
+    background-color: var(--color-white);
+
+}
+.list {
+    list-style: none;
+}
+.header-logo {
+    font-size: 18px;
+    color: var(--color-dark);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    line-height: 1.33;
+}
+.header-logo > span {
+    color: var(--color-primary-brand);
+}
+.footer-logo {
+    font-size: 18px;
+    color: var(--color-light);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    line-height: 1.33;
+}
+
+.footer-logo>span {
+    color: var(--color-primary-brand);
+}
+.section-description{
+    line-height: 1.5;
+    color: var(--color-text);
+    letter-spacing: 0.02em;
+}
+.section-team{
+    background-color: var(--color-light);
+}
+.teammates{
+    background-color: var(--color-white);
+}
+.service-button {
+    background-color: var(--color-primary-brand);
+    color: var(--color-white);
+    border-radius: 4px;
+    border: 1px solid var(--color-primary-brand);
+    cursor: pointer;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+}
+
+.service-button:hover {
+    background-color: var(--color-primary-brand);
+    color: var(--color-white);
+    border-radius: 4px;
+    border: 1px solid var(--color-pressed-state);
+    cursor: pointer;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+}
+
+.service-button:focus {
+    background-color:var(--color-primary-brand);
+    color: var(--color-white);
+    border-radius: 4px;
+    border: 1px solid var(--color-pressed-state);
+    cursor: pointer;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+}
+
+.header-links {
+    color: var(--color-dark);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header-address {
+    color: var(--color-dark);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.header-links:hover {
+    color: var(--color-pressed-state);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+}
+.header-address:hover {
+    color: var(--color-pressed-state);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.header-links:focus {
+    color: var(--color-pressed-state);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header-address:focus {
+    color: var(--color-pressed-state);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.hero{
+    background-color: var(--color-dark);
+}
+.hero-title{
+    color: var(--color-white);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hide{
+    display: none;
+}
+.section-subtitle{
+    font-weight: 500;
+    color: var(--color-dark);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.section-title{
+    color: var(--color-dark);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+}
+
+.footer{
+    background-color: var(--color-dark);
+}
+.footer-paragraph{
+    line-height: 1.5;
+    color: var(--color-accent);
+    letter-spacing: 0.02em;
+    
+}
+
+.portfolio-button {
+    background-color: var(--color-light);
+    color: var(--color-primary-brand);
+    border-radius: 4px;
+    border: 1px solid var(--color-accent);
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.portfolio-button:hover {
+    background-color: var(--color-pressed-state);
+    border-radius: 4px;
+    color: var(--color-white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.portfolio-button:focus {
+    background-color: var(--color-pressed-state);
+    border-radius: 4px;
+    color: var(--color-white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
